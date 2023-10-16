@@ -16,7 +16,7 @@ def filterData(data, limit, exceptions):
 
 #1
 
-def filterData(data, limit, exceptions):
+def filterData1(data, limit, exceptions):
     filtered_data = []
     index = 0
     while index < len(data):
@@ -34,7 +34,7 @@ def filterData(data, limit, exceptions):
 
 # 2
 
-def filterData(data, limit, exceptions):
+def filterData2(data, limit, exceptions):
     filtered_data = []
     index = 0
     while index < len(data):
@@ -51,7 +51,7 @@ def filterData(data, limit, exceptions):
 
 # 3
 
-def filterData(data, limit, exceptions):
+def filterData3(data, limit, exceptions):
     filtered_data = []
     index = 0
     while index < len(data):
@@ -68,7 +68,7 @@ def filterData(data, limit, exceptions):
 
 # 4
 
-def filterData(data, limit, exceptions):
+def filterData4(data, limit, exceptions):
     filtered_data = []
     index = 0
     while index < len(data):
@@ -85,7 +85,7 @@ def filterData(data, limit, exceptions):
 
 # 5
 
-def filterData(data, limit, exceptions):
+def filterData5(data, limit, exceptions):
     filtered_data = []
     index = 0
     while index < len(data):
@@ -102,7 +102,7 @@ def filterData(data, limit, exceptions):
 
 # 6
 
-def filterData(data, limit, exceptions):
+def filterData6(data, limit, exceptions):
     filtered_data = []
     index = 0
     while index < len(data):
@@ -116,3 +116,5 @@ def filterData(data, limit, exceptions):
         filtered_data.append(modified_item)
         index += 2 # changed to += 2
     return filtered_data
+
+

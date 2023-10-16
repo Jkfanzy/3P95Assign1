@@ -6,7 +6,7 @@ def bubble_sort(arr):
     n =  len(arr)
 
     for i in range(n):
-        for j in range(0, n-i-1):
+        for j in range(0, n):
 
             if arr[j] > arr[j + 1]:
                 temp = arr[j]
@@ -18,7 +18,7 @@ def bubble_sort(arr):
 
 # generates random array based on max length and maxmin value
 def generate_random_array():
-    max_length = 1000
+    max_length = 20
 
     # max value and min value (-max)
     maxmin_value =  100000
@@ -45,7 +45,7 @@ def random_test(iterations):
             print(f"After Sort:   {sorted_arr}\n")
 
             print("No errors found.\n\n")
-        except ExceptionType as e:
+        except Exception as e:
             print(f"Error: {type(e).__name__} - {e}")
         
 
